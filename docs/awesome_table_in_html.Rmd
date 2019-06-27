@@ -60,7 +60,7 @@ kable(dt)
 ```
 
 ## Bootstrap theme
-When used on a HTML table, `kable_styling()` will automatically apply twitter bootstrap theme to the table. Now it should looks the same as the original pandoc output (the one when you don't specify `format` in `kable()`) but this time, you are controlling it.
+When used on a HTML table, `kable_styling()` will automatically apply twitter bootstrap theme to the table. Now it should look the same as the original pandoc output (the one when you don't specify `format` in `kable()`) but this time, you are controlling it.
 ```{r}
 dt %>%
   kable() %>%
